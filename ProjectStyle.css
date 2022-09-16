@@ -46,9 +46,10 @@
 
 .gridContainer{
   display: flex;
-  height: auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 6rem;
+  width: 90%;
 }
 
 .gridItem{
@@ -62,7 +63,6 @@
   transform: scale(1);
   font-size: 0.9rem;
   border-radius: 10px;
-  margin: 1rem 0rem;
   transition: transform 0.2s, box-shadow 0.2s ease-in-out;
 }
 
@@ -87,4 +87,10 @@
 
 .gridItem img{
   width: 70%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
