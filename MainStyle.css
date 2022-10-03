@@ -97,6 +97,7 @@ header{
 }
 
 .landing a{
+  cursor: pointer;
   text-decoration: none;
 }
 
